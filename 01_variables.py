@@ -21,3 +21,35 @@ d = "Today's weather is nice"
 f = 'Today\'s weather i great'
 print(d)
 print(f)
+
+test_list = ["hello", "world", "python"]
+
+print(test_list)
+
+test_tuple = ("hello", "world", "python")
+print(test_tuple)
+
+test_dict = {'a': 1, 'b': 2}
+print(test_dict)
+
+test_set = {'a', 'b', 'c', 'd'}
+print(test_set)
+
+
+# type() function --> prints the dataype of the variable
+print(type(test_dict))
+print(type(print))
+
+
+a = 42
+b = 45.32
+c = a + b
+print(c)
+
+d = a - b
+print(d)
+
+e = a * b
+print(e)
+
+
