@@ -63,4 +63,15 @@ print(i)
 
 a = "42"
 b = "43"
-print(a + b)
+print(a + " " + b)
+
+# power
+a = 10
+print(a**2)
+
+a = 10
+b = 30
+res = a > b
+res_1 = a < b
+res_2 = a != b
+print(res, res_1, res_2)
