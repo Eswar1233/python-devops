@@ -17,5 +17,7 @@ d = 'string'
 d = """"this is multi-line string"""
 
 # Today's weather is nice
-d = "Todays weather is nice"
+d = "Today's weather is nice"
+f = 'Today\'s weather i great'
 print(d)
+print(f)
