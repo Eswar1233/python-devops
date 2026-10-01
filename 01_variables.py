@@ -53,3 +53,14 @@ e = a * b
 print(e)
 
 print(d, type(d))
+
+h = a // b
+print(h)
+
+
+i = a % b
+print(i)
+
+a = "42"
+b = "43"
+print(a + b)
