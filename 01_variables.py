@@ -52,4 +52,4 @@ print(d)
 e = a * b
 print(e)
 
-
+print(d, type(d))
