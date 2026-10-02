@@ -21,6 +21,7 @@ sliced_tuple = sample_tuple[1:3]
 print(sliced_tuple)
 
 
+
 sliced_tuple_len = len(sliced_tuple)
 print(sliced_tuple_len)
 
@@ -36,3 +37,21 @@ print(res_tuple)
 
 res_tuple_1 = sliced_tuple * 2
 print(res_tuple_1)
+
+
+# Methods
+k8s_index = res_tuple.index("Docker")
+print(k8s_index)
+
+
+# Tuple unpacking
+ansible, terraform, jenkins, docker, k8s  = ("Ansible", "Terraform", "Jenkins", "Docker", "K8s")
+
+print(ansible, terraform, jenkins, docker, k8s )
+
+
+
+ansible, *tools , jenkins  = ("Ansible", "Terraform", "Jenkins", "Docker", "K8s")
+
+print(ansible, *tools , jenkins)
+print(*tools)
