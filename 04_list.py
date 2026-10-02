@@ -33,5 +33,22 @@ sample_list.append("Promethues")
 print(sample_list)
 
 # Append list to list
+# more than 1 element add chesthey append ki adhi single lement ga consider chesthundhi
 sample_list.append(sample_list)
 print(sample_list)
+
+
+# Extend   -->
+sample_list = [1, 2, 3, 'hello', True]
+sample_list.extend(sample_list)
+#  elements added as individual elements to the existing list as showin in example
+print(sample_list)
+
+
+#  membership operator: in , not in
+is_elem = 2 in sample_list
+print(is_elem)
+
+is_elem = 2 not in sample_list
+print(is_elem)
+
