@@ -11,10 +11,29 @@ print(sub_str)
 
 #  positive and negative indexing
 #  0123456789 , -9,-8,-7,-6,-5,-4,-3,-2,-1
-sub_str_negative = sample_str[-1:-4]
-# print(sub_str_negative)
+sub_str_negative = sample_str[-1:-4:-1]
+print(sub_str_negative)
 
 
 a = "sample"
 # a[start : end : step size]
-len(a)
+sample_str = "This-is-a-sample-string"
+sub_str = sample_str[:]
+print(sample_str)
+
+sub_str = sample_str[1:]
+print(sub_str)
+
+sub_str = sample_str[:5]
+print(sub_str)
+
+sub_str = sample_str[::2]
+print(sub_str)
+
+# Reverse a string
+sub_str = sample_str[::-1]
+print(sub_str)
+
+# Lenght of string
+len_str = len(sample_str)
+print("length of string:", len_str);
