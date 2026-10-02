@@ -75,3 +75,8 @@ res = a > b
 res_1 = a < b
 res_2 = a != b
 print(res, res_1, res_2)
+
+# Logical operators
+# AND, NOT, OR 
+a = True
+b = False
