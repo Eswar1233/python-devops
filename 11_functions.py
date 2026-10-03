@@ -13,5 +13,5 @@ def add(num_1, num_2):
   return res
 
 
-add(1,2)
-
+res = add(1,2)
+print(res)
