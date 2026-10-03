@@ -36,3 +36,15 @@ def sum(num_1, num_2, num_3=10):
 
 res = sum(1,2)
 print(res)
+
+
+
+
+# One user enters 10 numbers and another user enters 100 numbers. Define your function to handle situation.
+
+def subt(*nums):
+  """
+  This fucntion performs addition of 2 numbers
+  """
+  res = add(nums)
+  return res
